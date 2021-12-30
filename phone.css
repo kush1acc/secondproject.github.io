@@ -1,4 +1,4 @@
-/* css for phone  */
+/* css for phone  
 
 .packages{
     margin: 2rem;
@@ -22,4 +22,63 @@
     color:#666;
     padding:1rem 0;
     display: none;
+  }*/
+
+/* css for phone  */
+
+.packages{
+    margin:8px;
+    
+      }
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+;
+  }
+
+  .packages .box-container .box{
+    flex:1 1 10rem;
+    border-radius: .5rem;
+    overflow:hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  .packages .box-container .box img{
+    height: 10rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .packages .box-container .box .content{
+    padding:1rem;
+    margin: 0;
+  }
+  .packages .box-container .box .content h3{
+    font-size:1rem;
+    color:#333;
+    margin: 0%;
+    padding: 5px
+  }
+  
+ 
+  .packages .box-container .box .content h3 i{
+    color:var(--orange);
+  }
+  
+  .packages .box-container .box .content p{
+    font-size:14px;
+    color:#666;
+padding:2px;
+    margin: 0%;
+}
+
+  
+  
+  
+  .packages .box-container .box .content .price{
+    font-size: 1rem;
+    color:#ffa500;
+    padding-top: 1%;
+    margin: 0%;
+    
   }
